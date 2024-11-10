@@ -1,0 +1,32 @@
+{% extends 'mailing/home.html' %}
+{% block content %}
+<div class="container">
+    <form class="row" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-6">
+                <div class="card card-body">
+                    {% if object %}
+                    <p class="card-text">Редактирование рассылки</p>
+                    {% else %}
+                    <p class="card-text">Создание рассылки</p>
+                    {% endif %}
+                    <div class="card_body">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        {% if object %}
+                        Сохранить
+                        {% else %}
+                        Создать
+                        {% endif %}
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </form>
+</div>
+{% endblock %}

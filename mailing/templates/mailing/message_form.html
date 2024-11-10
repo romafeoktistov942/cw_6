@@ -1,0 +1,45 @@
+{% extends 'mailing/home.html' %}
+{% block content %}
+<div class="container">
+    <form class="row" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-6">
+                <div class="card card-body">
+                    {% if object %}
+                    <p class="card-text">Изменить сообщение</p>
+                    {% else %}
+                    <p class="card-text">Создание сообщения</p>
+                    {% endif %}
+                    <div class="card_body">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        {% if object %}
+                        Сохранить
+                        {% else %}
+                        Создать
+                        {% endif %}
+                    </button>
+                </div>
+            </div>
+
+       <!--  Для вывода двух форм одновременно
+            {% if object %}
+            <div class="col-6">
+                <div class="card card-body">
+                    <p class="card-text">Редактирование рассылки</p>
+                    <div class="card_body">
+                        {{ formset.management_form }}
+                        {% for form in formset.forms %}
+                        {{ form.as_p }}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %} --!>
+
+        </div>
+    </form>
+</div>
+{% endblock %}
