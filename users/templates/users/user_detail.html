@@ -1,0 +1,40 @@
+{% extends 'mailing/home.html' %}
+{% load my_tags %}
+{% block content %}
+
+
+<div class="album py-5 bg-body-tertiary">
+    <div class="container">
+
+        <div class="card shadow-sm">
+
+            <div class="card-body">
+                <p class="card-text">Почта: {{ object.email }}</p>
+                <p class="card-text">Имя: {{ object.first_name }}</p>
+                <p class="card-text">Фамилия: {{ object.last_name }}</p>
+                <p class="card-text">Телефон: {{ object.phone }}</p>
+                <p class="card-text">Статус: {{ object.is_active }}</p>
+
+                {% for item in object.client_list.all %}
+                {{ item.email }},
+                {% endfor %}
+                <p></p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a class="btn btn-primary" href="{% url 'users:user_list' %}" role="button">Вернуться</a>
+                        {% if perms.users.change_user %}
+                            <a class="btn btn-primary" href="{% url 'users:user_update' object.pk %}" role="button">Изменить</a>
+                        {% endif %}
+                        {% if perms.users.delete_user %}
+                            <a class="btn btn-primary" href="{% url 'users:user_delete' object.pk %}" role="button">Удалить</a>
+                        {% endif %}
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
