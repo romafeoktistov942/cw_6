@@ -1,0 +1,5360 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-21T14:06:34.434Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-21T14:06:44.520Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Пользователь",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-21T14:09:22.339Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "test1@sky.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-21T14:09:29.738Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "test2@sky.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-21T14:10:42.836Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "test1@sky.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-10-22T11:39:43.702Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Пользователь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-10-22T11:43:21.018Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-10-22T11:43:33.836Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Пользователь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-10-22T11:43:50.563Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Пользователь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-10-22T11:52:34.486Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-10-22T11:53:44.043Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-10-22T11:56:14.020Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-10-22T11:56:35.993Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-10-22T11:57:10.164Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-10-22T11:57:39.916Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-10-22T11:57:53.734Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-10-22T11:58:16.117Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-10-22T11:58:28.211Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-10-22T11:58:40.380Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-10-22T12:33:40.922Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-10-22T12:33:54.402Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-10-22T12:34:09.160Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-10-22T12:34:33.690Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-10-22T12:34:46.627Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-10-22T12:35:25.952Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-10-22T12:35:52.530Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-10-22T12:36:08.539Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-10-22T12:39:00.125Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-10-22T12:39:10.667Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-10-22T12:39:19.459Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-10-22T14:59:13.947Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-10-22T14:59:24.872Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-10-22T14:59:42.274Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-10-22T14:59:52.590Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-10-22T15:00:16.706Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-10-22T15:02:05.305Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-10-22T15:02:17.924Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-10-22T15:02:30.034Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-10-22T16:36:26.281Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-10-22T16:37:39.360Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-10-22T16:44:24.832Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-10-22T16:47:09.248Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "admin",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-10-22T16:47:28.174Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Superuser status\", \"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-10-22T16:47:56.963Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "admin@sky.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-10-22T17:01:19.176Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-10-22T17:11:22.058Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Сергей parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-10-22T17:11:27.225Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Сергей dlaotpravkipisem@mail.ru dlaotpravkipisem@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-10-22T17:11:31.817Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Сергей vakhrin.sv vakhrin.sv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-10-22T17:11:49.201Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "Вторая рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-10-22T17:11:54.607Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "Какая-то Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-10-22T17:11:59.827Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "7",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-10-22T17:12:05.555Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-10-22T17:12:10.171Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2024-10-22T17:12:14.976Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2024-10-22T17:12:19.891Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Вторая рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.571Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "17",
+      "object_repr": "2024-10-21 07:13:02+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.574Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "16",
+      "object_repr": "2024-10-20 18:22:12.079000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.575Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "15",
+      "object_repr": "2024-10-20 18:22:12.072000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.576Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "14",
+      "object_repr": "2024-10-20 18:22:12.067000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.577Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "13",
+      "object_repr": "2024-10-20 18:22:12.062000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.577Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "12",
+      "object_repr": "2024-10-20 18:22:12.057000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.578Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "11",
+      "object_repr": "2024-10-20 18:22:12.050000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2024-10-22T17:47:01.580Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "10",
+      "object_repr": "2024-10-20 18:22:12.043000+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2024-10-22T17:47:07.046Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "23",
+      "object_repr": "2024-10-22 17:47:07.045473+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-10-22T17:47:12.887Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "25",
+      "object_repr": "2024-10-22 17:47:12.885067+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-10-22T17:47:17.645Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "24",
+      "object_repr": "2024-10-22 17:47:17.644129+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-10-22T17:47:23.156Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "22",
+      "object_repr": "2024-10-22 17:47:23.154684+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-10-22T17:47:27.755Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "21",
+      "object_repr": "2024-10-22 17:47:27.754816+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-10-22T17:47:34.136Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "20",
+      "object_repr": "2024-10-22 17:47:34.135898+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-10-22T17:47:38.685Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "2024-10-22 17:47:38.683327+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2024-10-22T17:47:43.718Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "2024-10-22 17:47:43.717084+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2024-10-22T18:40:02.250Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2024-10-22T19:25:18.344Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2024-10-22T19:25:57.110Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Пользователь",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2024-10-23T07:23:49.649Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2024-10-23T07:30:39.273Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Менеджер",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2024-10-23T07:39:24.712Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2024-10-23T07:40:18.938Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "users_mailing",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2024-10-23T07:41:13.406Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "usersmailing",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2024-10-23T08:04:28.844Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2024-10-23T08:04:51.653Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "admin@sky.pro",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.894Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "27",
+      "object_repr": "2024-10-23 06:36:50.535626+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.899Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "26",
+      "object_repr": "2024-10-22 18:48:02.750056+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.901Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "25",
+      "object_repr": "2024-10-22 17:47:12.885067+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.902Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "24",
+      "object_repr": "2024-10-22 17:47:17.644129+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.902Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "23",
+      "object_repr": "2024-10-22 17:47:07.045473+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.903Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "22",
+      "object_repr": "2024-10-22 17:47:23.154684+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.904Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "21",
+      "object_repr": "2024-10-22 17:47:27.754816+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.905Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "20",
+      "object_repr": "2024-10-22 17:47:34.135898+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.906Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "19",
+      "object_repr": "2024-10-22 17:47:38.683327+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2024-10-23T10:23:52.907Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "18",
+      "object_repr": "2024-10-22 17:47:43.717084+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.514Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "37",
+      "object_repr": "2024-10-23 10:24:01.020314+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.517Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "36",
+      "object_repr": "2024-10-23 10:24:01.016232+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.519Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "35",
+      "object_repr": "2024-10-23 10:24:01.012232+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.520Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "34",
+      "object_repr": "2024-10-23 10:24:01.008233+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.521Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "33",
+      "object_repr": "2024-10-23 10:24:01.003236+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.522Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "32",
+      "object_repr": "2024-10-23 10:24:00.999233+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.523Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "31",
+      "object_repr": "2024-10-23 10:24:00.994232+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.524Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "30",
+      "object_repr": "2024-10-23 10:24:00.990233+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.525Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "29",
+      "object_repr": "2024-10-23 10:24:00.985235+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2024-10-23T10:43:06.526Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "28",
+      "object_repr": "2024-10-23 10:24:00.978235+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.249Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "117",
+      "object_repr": "2024-10-23 10:44:44.848648+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.253Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "116",
+      "object_repr": "2024-10-23 10:44:44.843646+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.255Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "115",
+      "object_repr": "2024-10-23 10:44:44.837646+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.256Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "114",
+      "object_repr": "2024-10-23 10:44:44.831648+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.256Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "113",
+      "object_repr": "2024-10-23 10:44:44.825648+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.257Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "112",
+      "object_repr": "2024-10-23 10:44:44.819646+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.258Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "111",
+      "object_repr": "2024-10-23 10:44:44.812652+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.259Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "110",
+      "object_repr": "2024-10-23 10:44:44.800649+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.260Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "109",
+      "object_repr": "2024-10-23 10:44:44.782651+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.261Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "108",
+      "object_repr": "2024-10-23 10:44:44.745649+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.262Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "107",
+      "object_repr": "2024-10-23 10:44:41.717362+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.262Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "106",
+      "object_repr": "2024-10-23 10:44:41.711362+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.263Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "105",
+      "object_repr": "2024-10-23 10:44:41.706362+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.264Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "104",
+      "object_repr": "2024-10-23 10:44:41.701361+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.265Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "103",
+      "object_repr": "2024-10-23 10:44:41.696182+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.266Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "102",
+      "object_repr": "2024-10-23 10:44:41.689981+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.267Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "101",
+      "object_repr": "2024-10-23 10:44:41.684982+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.267Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "100",
+      "object_repr": "2024-10-23 10:44:41.678981+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.269Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "99",
+      "object_repr": "2024-10-23 10:44:41.673821+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.270Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "98",
+      "object_repr": "2024-10-23 10:44:41.666821+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.271Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "97",
+      "object_repr": "2024-10-23 10:44:34.874482+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.272Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "96",
+      "object_repr": "2024-10-23 10:44:34.868481+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.273Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "95",
+      "object_repr": "2024-10-23 10:44:34.863480+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.273Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "94",
+      "object_repr": "2024-10-23 10:44:34.857481+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.274Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "93",
+      "object_repr": "2024-10-23 10:44:34.852481+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.275Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "92",
+      "object_repr": "2024-10-23 10:44:34.846481+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.276Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "91",
+      "object_repr": "2024-10-23 10:44:34.840480+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.277Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "90",
+      "object_repr": "2024-10-23 10:44:34.834481+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.277Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "89",
+      "object_repr": "2024-10-23 10:44:34.828335+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.278Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "88",
+      "object_repr": "2024-10-23 10:44:34.821335+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.279Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "87",
+      "object_repr": "2024-10-23 10:44:31.794991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.280Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "86",
+      "object_repr": "2024-10-23 10:44:31.789991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.280Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "85",
+      "object_repr": "2024-10-23 10:44:31.784991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.281Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "84",
+      "object_repr": "2024-10-23 10:44:31.779991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.282Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "83",
+      "object_repr": "2024-10-23 10:44:31.773991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.283Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "82",
+      "object_repr": "2024-10-23 10:44:31.768990+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.284Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "81",
+      "object_repr": "2024-10-23 10:44:31.763990+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.285Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "80",
+      "object_repr": "2024-10-23 10:44:31.758990+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.286Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "79",
+      "object_repr": "2024-10-23 10:44:31.752990+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.287Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "78",
+      "object_repr": "2024-10-23 10:44:31.745991+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.288Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "77",
+      "object_repr": "2024-10-23 10:43:41.665736+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.289Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "76",
+      "object_repr": "2024-10-23 10:43:41.660736+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.290Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "75",
+      "object_repr": "2024-10-23 10:43:41.655736+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.290Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "74",
+      "object_repr": "2024-10-23 10:43:41.649736+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.291Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "73",
+      "object_repr": "2024-10-23 10:43:41.644632+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.292Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "72",
+      "object_repr": "2024-10-23 10:43:41.638632+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.293Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "71",
+      "object_repr": "2024-10-23 10:43:41.632635+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.294Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "70",
+      "object_repr": "2024-10-23 10:43:41.625635+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.294Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "69",
+      "object_repr": "2024-10-23 10:43:41.618634+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.295Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "68",
+      "object_repr": "2024-10-23 10:43:41.610635+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.296Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "67",
+      "object_repr": "2024-10-23 10:43:31.668691+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.297Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "66",
+      "object_repr": "2024-10-23 10:43:31.663575+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.298Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "65",
+      "object_repr": "2024-10-23 10:43:31.658577+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.298Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "64",
+      "object_repr": "2024-10-23 10:43:31.653575+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.299Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "63",
+      "object_repr": "2024-10-23 10:43:31.647468+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.300Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "62",
+      "object_repr": "2024-10-23 10:43:31.641468+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.301Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "61",
+      "object_repr": "2024-10-23 10:43:31.635468+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.303Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "60",
+      "object_repr": "2024-10-23 10:43:31.629468+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.304Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "59",
+      "object_repr": "2024-10-23 10:43:31.622361+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.305Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "58",
+      "object_repr": "2024-10-23 10:43:31.615258+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.306Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "57",
+      "object_repr": "2024-10-23 10:43:21.650419+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.306Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "56",
+      "object_repr": "2024-10-23 10:43:21.645419+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.307Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "55",
+      "object_repr": "2024-10-23 10:43:21.640417+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.308Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "54",
+      "object_repr": "2024-10-23 10:43:21.635419+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.309Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "53",
+      "object_repr": "2024-10-23 10:43:21.629419+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.310Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "52",
+      "object_repr": "2024-10-23 10:43:21.624416+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.311Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "51",
+      "object_repr": "2024-10-23 10:43:21.619324+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.311Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "50",
+      "object_repr": "2024-10-23 10:43:21.613324+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.312Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "49",
+      "object_repr": "2024-10-23 10:43:21.608188+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.313Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "48",
+      "object_repr": "2024-10-23 10:43:21.602189+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.314Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "47",
+      "object_repr": "2024-10-23 10:43:11.783433+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.315Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "46",
+      "object_repr": "2024-10-23 10:43:11.777434+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.316Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "45",
+      "object_repr": "2024-10-23 10:43:11.770433+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.317Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "44",
+      "object_repr": "2024-10-23 10:43:11.763434+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.318Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "43",
+      "object_repr": "2024-10-23 10:43:11.757380+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.319Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "42",
+      "object_repr": "2024-10-23 10:43:11.750380+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.320Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "41",
+      "object_repr": "2024-10-23 10:43:11.744379+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.321Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "40",
+      "object_repr": "2024-10-23 10:43:11.737380+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.322Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "39",
+      "object_repr": "2024-10-23 10:43:11.730380+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.323Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "38",
+      "object_repr": "2024-10-23 10:43:11.722380+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.324Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "127",
+      "object_repr": "2024-10-23 10:45:09.929255+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.324Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "126",
+      "object_repr": "2024-10-23 10:45:09.925252+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.325Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "125",
+      "object_repr": "2024-10-23 10:45:09.921255+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.326Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "124",
+      "object_repr": "2024-10-23 10:45:09.917255+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.327Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "123",
+      "object_repr": "2024-10-23 10:45:09.913238+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.328Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "122",
+      "object_repr": "2024-10-23 10:45:09.909161+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.329Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "121",
+      "object_repr": "2024-10-23 10:45:09.905156+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.329Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "120",
+      "object_repr": "2024-10-23 10:45:09.901155+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.330Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "119",
+      "object_repr": "2024-10-23 10:45:09.897069+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+      "action_time": "2024-10-23T10:45:35.331Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "118",
+      "object_repr": "2024-10-23 10:45:09.891072+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.842Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "137",
+      "object_repr": "2024-10-23 10:45:39.845683+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.847Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "136",
+      "object_repr": "2024-10-23 10:45:39.842583+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.848Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "135",
+      "object_repr": "2024-10-23 10:45:39.838583+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.850Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "134",
+      "object_repr": "2024-10-23 10:45:39.834583+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.851Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "133",
+      "object_repr": "2024-10-23 10:45:39.830448+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.852Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "132",
+      "object_repr": "2024-10-23 10:45:39.824357+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.852Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "131",
+      "object_repr": "2024-10-23 10:45:39.819355+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.853Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "130",
+      "object_repr": "2024-10-23 10:45:39.815246+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 200,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.854Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "129",
+      "object_repr": "2024-10-23 10:45:39.811253+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 201,
+    "fields": {
+      "action_time": "2024-10-23T10:47:15.855Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "128",
+      "object_repr": "2024-10-23 10:45:39.806247+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 202,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.309Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "147",
+      "object_repr": "2024-10-23 10:47:19.843572+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 203,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.312Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "146",
+      "object_repr": "2024-10-23 10:47:19.839568+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 204,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.314Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "145",
+      "object_repr": "2024-10-23 10:47:19.836488+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 205,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.315Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "144",
+      "object_repr": "2024-10-23 10:47:19.832336+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 206,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.316Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "143",
+      "object_repr": "2024-10-23 10:47:19.827335+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 207,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.317Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "142",
+      "object_repr": "2024-10-23 10:47:19.822336+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 208,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.317Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "141",
+      "object_repr": "2024-10-23 10:47:19.818336+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 209,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.318Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "140",
+      "object_repr": "2024-10-23 10:47:19.814341+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 210,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.319Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "139",
+      "object_repr": "2024-10-23 10:47:19.809338+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 211,
+    "fields": {
+      "action_time": "2024-10-23T10:50:16.320Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "138",
+      "object_repr": "2024-10-23 10:47:19.804336+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 212,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.639Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "9",
+      "object_repr": "Вторая рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 213,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.643Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "8",
+      "object_repr": "Какая-то Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 214,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.644Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "7",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 215,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.646Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "6",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 216,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.647Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "5",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 217,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.648Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "4",
+      "object_repr": "Четвертая Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 218,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.649Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "Какая-то Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 219,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.650Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "2",
+      "object_repr": "Вторая рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 220,
+    "fields": {
+      "action_time": "2024-10-23T10:53:30.651Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "1",
+      "object_repr": "Первая Рассылка",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 221,
+    "fields": {
+      "action_time": "2024-10-23T10:54:15.300Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "157",
+      "object_repr": "2024-10-23 10:50:19.832196+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 222,
+    "fields": {
+      "action_time": "2024-10-23T10:55:10.551Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "158",
+      "object_repr": "2024-10-23 10:54:19.782681+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 223,
+    "fields": {
+      "action_time": "2024-10-23T10:59:30.490Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "159",
+      "object_repr": "2024-10-23 10:55:19.776209+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 224,
+    "fields": {
+      "action_time": "2024-10-23T11:00:56.978Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "160",
+      "object_repr": "2024-10-23 10:59:39.786533+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 225,
+    "fields": {
+      "action_time": "2024-10-23T11:02:03.355Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "161",
+      "object_repr": "2024-10-23 11:00:59.781874+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 226,
+    "fields": {
+      "action_time": "2024-10-23T11:02:55.964Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "162",
+      "object_repr": "2024-10-23 11:02:10.546017+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 227,
+    "fields": {
+      "action_time": "2024-10-23T11:03:30.786Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "163",
+      "object_repr": "2024-10-23 11:03:00.692845+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 228,
+    "fields": {
+      "action_time": "2024-10-23T11:04:25.240Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "164",
+      "object_repr": "2024-10-23 11:03:32.054649+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 229,
+    "fields": {
+      "action_time": "2024-10-23T11:05:52.824Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "165",
+      "object_repr": "2024-10-23 11:04:27.324188+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 230,
+    "fields": {
+      "action_time": "2024-10-23T11:06:38.465Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "166",
+      "object_repr": "2024-10-23 11:05:58.283037+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 231,
+    "fields": {
+      "action_time": "2024-10-23T11:08:30.600Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "167",
+      "object_repr": "2024-10-23 11:06:42.397749+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 232,
+    "fields": {
+      "action_time": "2024-10-23T11:11:05.780Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "168",
+      "object_repr": "2024-10-23 11:08:33.621775+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 233,
+    "fields": {
+      "action_time": "2024-10-23T11:14:42.404Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "169",
+      "object_repr": "2024-10-23 11:11:11.924951+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 234,
+    "fields": {
+      "action_time": "2024-10-23T11:24:28.870Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "171",
+      "object_repr": "2024-10-23 11:24:12.042518+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 235,
+    "fields": {
+      "action_time": "2024-10-23T11:24:28.875Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "170",
+      "object_repr": "2024-10-23 11:14:49.232244+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 236,
+    "fields": {
+      "action_time": "2024-10-23T11:24:52.510Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "174",
+      "object_repr": "2024-10-23 11:24:33.894898+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 237,
+    "fields": {
+      "action_time": "2024-10-23T11:24:52.515Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "173",
+      "object_repr": "2024-10-23 11:24:33.380880+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 238,
+    "fields": {
+      "action_time": "2024-10-23T11:24:52.516Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "172",
+      "object_repr": "2024-10-23 11:24:31.943966+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 239,
+    "fields": {
+      "action_time": "2024-10-23T12:39:48.541Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 240,
+    "fields": {
+      "action_time": "2024-10-23T12:41:59.244Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 241,
+    "fields": {
+      "action_time": "2024-10-23T12:47:49.031Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 242,
+    "fields": {
+      "action_time": "2024-10-23T12:53:21.221Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"\\u0410\\u043a\\u0442\\u0438\\u0432\\u0430\\u0446\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 243,
+    "fields": {
+      "action_time": "2024-10-23T12:53:38.236Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@gmail.com",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 244,
+    "fields": {
+      "action_time": "2024-10-23T13:56:29.849Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 245,
+    "fields": {
+      "action_time": "2024-10-23T14:15:42.500Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "manager",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 246,
+    "fields": {
+      "action_time": "2024-10-23T14:21:26.893Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "usersmailing",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 247,
+    "fields": {
+      "action_time": "2024-10-23T14:22:15.128Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "usersmailing",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 248,
+    "fields": {
+      "action_time": "2024-10-24T07:26:06.382Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "11",
+      "object_repr": "Рассылка Parlament",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 249,
+    "fields": {
+      "action_time": "2024-10-24T07:26:16.349Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "10",
+      "object_repr": "Рассылка Parlament",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 250,
+    "fields": {
+      "action_time": "2024-10-24T07:27:03.223Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "176",
+      "object_repr": "2024-10-24 07:27:03.221912+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 251,
+    "fields": {
+      "action_time": "2024-10-24T08:08:45.462Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "176",
+      "object_repr": "2024-10-24 07:27:03.221912+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 252,
+    "fields": {
+      "action_time": "2024-10-24T08:08:45.465Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "175",
+      "object_repr": "2024-10-23 11:24:53.785485+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 253,
+    "fields": {
+      "action_time": "2024-10-24T08:11:37.783Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "178",
+      "object_repr": "2024-10-24 08:11:37.782446+00:00",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 254,
+    "fields": {
+      "action_time": "2024-10-24T08:15:16.151Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "178",
+      "object_repr": "2024-10-24 08:11:37.782446+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 255,
+    "fields": {
+      "action_time": "2024-10-24T08:15:16.154Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "177",
+      "object_repr": "2024-10-24 08:10:47.303661+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 256,
+    "fields": {
+      "action_time": "2024-10-24T08:20:22.196Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0447\\u0442\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 257,
+    "fields": {
+      "action_time": "2024-10-24T08:20:44.298Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "181",
+      "object_repr": "2024-10-24 08:19:58.278393+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 258,
+    "fields": {
+      "action_time": "2024-10-24T08:20:44.301Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "180",
+      "object_repr": "2024-10-24 08:19:57.599414+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 259,
+    "fields": {
+      "action_time": "2024-10-24T08:20:44.302Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "179",
+      "object_repr": "2024-10-24 08:19:56.247977+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 260,
+    "fields": {
+      "action_time": "2024-10-24T08:24:42.128Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "183",
+      "object_repr": "2024-10-24 08:20:49.606850+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 261,
+    "fields": {
+      "action_time": "2024-10-24T08:24:42.131Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "182",
+      "object_repr": "2024-10-24 08:20:48.367992+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 262,
+    "fields": {
+      "action_time": "2024-10-24T08:26:31.576Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "189",
+      "object_repr": "2024-10-24 08:25:45.106004+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 263,
+    "fields": {
+      "action_time": "2024-10-24T08:26:31.580Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "188",
+      "object_repr": "2024-10-24 08:25:45.101004+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 264,
+    "fields": {
+      "action_time": "2024-10-24T08:27:05.865Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "191",
+      "object_repr": "2024-10-24 08:26:35.017894+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 265,
+    "fields": {
+      "action_time": "2024-10-24T08:27:05.871Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "190",
+      "object_repr": "2024-10-24 08:26:35.011899+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 266,
+    "fields": {
+      "action_time": "2024-10-24T08:27:57.319Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "193",
+      "object_repr": "2024-10-24 08:27:15.020113+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 267,
+    "fields": {
+      "action_time": "2024-10-24T08:27:57.323Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "192",
+      "object_repr": "2024-10-24 08:27:15.012102+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 268,
+    "fields": {
+      "action_time": "2024-10-24T08:28:53.619Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "195",
+      "object_repr": "2024-10-24 08:28:05.012782+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 269,
+    "fields": {
+      "action_time": "2024-10-24T08:28:53.623Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "194",
+      "object_repr": "2024-10-24 08:28:05.005782+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 270,
+    "fields": {
+      "action_time": "2024-10-24T08:31:13.659Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "197",
+      "object_repr": "2024-10-24 08:30:01.257153+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 271,
+    "fields": {
+      "action_time": "2024-10-24T08:31:13.663Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "196",
+      "object_repr": "2024-10-24 08:30:01.250151+00:00",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 272,
+    "fields": {
+      "action_time": "2024-10-24T08:32:26.810Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "12",
+      "object_repr": "Вторая рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u043f\\u0435\\u0440\\u0432\\u043e\\u0439 \\u043e\\u0442\\u043f\\u0440\\u0430\\u0432\\u043a\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 273,
+    "fields": {
+      "action_time": "2024-10-24T08:47:25.380Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 274,
+    "fields": {
+      "action_time": "2024-10-24T08:48:05.435Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Сергей parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0412\\u043b\\u0430\\u0434\\u0435\\u043b\\u0435\\u0446\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 275,
+    "fields": {
+      "action_time": "2024-10-24T08:51:08.005Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 276,
+    "fields": {
+      "action_time": "2024-10-24T08:51:34.400Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 277,
+    "fields": {
+      "action_time": "2024-10-24T08:51:54.309Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 278,
+    "fields": {
+      "action_time": "2024-10-24T15:51:23.745Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "content-manager",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 279,
+    "fields": {
+      "action_time": "2024-10-24T15:51:44.017Z",
+      "user": 2,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "parlamentsv@mail.ru",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 280,
+    "fields": {
+      "action_time": "2024-10-24T15:52:26.018Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Заголовок 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 281,
+    "fields": {
+      "action_time": "2024-10-24T15:52:42.553Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Заголовок 1",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 282,
+    "fields": {
+      "action_time": "2024-10-24T18:11:22.119Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Заголовок 2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 283,
+    "fields": {
+      "action_time": "2024-10-24T18:11:29.727Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Заголовок 3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 284,
+    "fields": {
+      "action_time": "2024-10-24T18:11:37.606Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Заголовок 4",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 285,
+    "fields": {
+      "action_time": "2024-10-25T06:48:08.512Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Блог 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 286,
+    "fields": {
+      "action_time": "2024-10-25T06:48:14.080Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Блог 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 287,
+    "fields": {
+      "action_time": "2024-10-25T06:48:19.418Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Блог 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 288,
+    "fields": {
+      "action_time": "2024-10-25T06:48:25.228Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Блог 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 289,
+    "fields": {
+      "action_time": "2024-10-25T06:48:34.009Z",
+      "user": 2,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "Блог 5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 290,
+    "fields": {
+      "action_time": "2024-10-25T06:48:59.257Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Сообщение 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 291,
+    "fields": {
+      "action_time": "2024-10-25T06:49:05.537Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Сообщение тест2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 292,
+    "fields": {
+      "action_time": "2024-10-25T06:49:12.344Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Сообщение Первая Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 293,
+    "fields": {
+      "action_time": "2024-10-25T06:49:17.623Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Сообщение Рассылка",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 294,
+    "fields": {
+      "action_time": "2024-10-25T06:49:24.904Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Сообщение Parlament",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 295,
+    "fields": {
+      "action_time": "2024-10-25T06:49:31.621Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Сообщение 11 parlamentsv",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 296,
+    "fields": {
+      "action_time": "2024-10-25T06:49:37.402Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Сообщение test2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 297,
+    "fields": {
+      "action_time": "2024-10-25T06:49:42.980Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Сообщение 111 тест2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 298,
+    "fields": {
+      "action_time": "2024-10-25T06:49:48.515Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Сообщение 222 parlamentsv",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 299,
+    "fields": {
+      "action_time": "2024-10-25T06:49:57.899Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Сообщение 3333",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 300,
+    "fields": {
+      "action_time": "2024-10-25T06:50:05.237Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Сообщение 444",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 301,
+    "fields": {
+      "action_time": "2024-10-25T06:50:20.839Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Сообщение Первая",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 302,
+    "fields": {
+      "action_time": "2024-10-25T08:17:27.782Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 303,
+    "fields": {
+      "action_time": "2024-10-25T08:17:41.512Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 304,
+    "fields": {
+      "action_time": "2024-10-25T09:38:53.893Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Блог 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 305,
+    "fields": {
+      "action_time": "2024-10-25T09:39:10.417Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Блог 2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 306,
+    "fields": {
+      "action_time": "2024-10-25T09:40:09.811Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Блог 3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 307,
+    "fields": {
+      "action_time": "2024-10-25T09:40:26.431Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Блог 4",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 308,
+    "fields": {
+      "action_time": "2024-10-25T09:40:33.357Z",
+      "user": 11,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "Блог 5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 309,
+    "fields": {
+      "action_time": "2024-10-25T10:41:44.104Z",
+      "user": 2,
+      "content_type": 6,
+      "object_id": "16",
+      "object_repr": "Сообщение тест2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add Рассылка",
+      "content_type": 6,
+      "codename": "add_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change Рассылка",
+      "content_type": 6,
+      "codename": "change_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete Рассылка",
+      "content_type": 6,
+      "codename": "delete_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view Рассылка",
+      "content_type": 6,
+      "codename": "view_mailing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Сообщение",
+      "content_type": 7,
+      "codename": "add_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Сообщение",
+      "content_type": 7,
+      "codename": "change_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Сообщение",
+      "content_type": 7,
+      "codename": "delete_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Сообщение",
+      "content_type": 7,
+      "codename": "view_message"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Клиент",
+      "content_type": 8,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Клиент",
+      "content_type": 8,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Клиент",
+      "content_type": 8,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Клиент",
+      "content_type": 8,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Попытка",
+      "content_type": 9,
+      "codename": "add_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Попытка",
+      "content_type": 9,
+      "codename": "change_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Попытка",
+      "content_type": 9,
+      "codename": "delete_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Попытка",
+      "content_type": 9,
+      "codename": "view_attempt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add django job",
+      "content_type": 10,
+      "codename": "add_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change django job",
+      "content_type": 10,
+      "codename": "change_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete django job",
+      "content_type": 10,
+      "codename": "delete_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view django job",
+      "content_type": 10,
+      "codename": "view_djangojob"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add django job execution",
+      "content_type": 11,
+      "codename": "add_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change django job execution",
+      "content_type": 11,
+      "codename": "change_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete django job execution",
+      "content_type": 11,
+      "codename": "delete_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view django job execution",
+      "content_type": 11,
+      "codename": "view_djangojobexecution"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 12,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 12,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 12,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 12,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can edit is active",
+      "content_type": 12,
+      "codename": "Can_edit_is_active"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can edit status",
+      "content_type": 6,
+      "codename": "Can_edit_status"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can is published",
+      "content_type": 6,
+      "codename": "Can_is_published"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can add Статья",
+      "content_type": 13,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can change Статья",
+      "content_type": 13,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can delete Статья",
+      "content_type": 13,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can view Статья",
+      "content_type": 13,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "manager",
+      "permissions": [
+        51,
+        22,
+        24,
+        49,
+        46,
+        48
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "usersmailing",
+      "permissions": [
+        36,
+        29,
+        30,
+        31,
+        32,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "admin",
+      "permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        52,
+        53,
+        54,
+        55,
+        13,
+        14,
+        15,
+        16,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        29,
+        30,
+        31,
+        32,
+        21,
+        50,
+        51,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        17,
+        18,
+        19,
+        20,
+        45,
+        46,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 4,
+    "fields": {
+      "name": "content-manager",
+      "permissions": [
+        52,
+        53,
+        54,
+        55
+      ]
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "mailing",
+      "model": "mailing"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "mailing",
+      "model": "message"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "mailing",
+      "model": "client"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "mailing",
+      "model": "attempt"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojob"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "django_apscheduler",
+      "model": "djangojobexecution"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+      "app_label": "users",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+      "app_label": "blog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "h1k8bru8308icblpnpeoxpk7bvusgfyv",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnxNxtKes5grbO7JIBsKU4qxN0hUgpo38y8l0q4rVPaGi9pJnVWVp1-t4zjg8sO6I7lVvVYy7rMWe-KPmjT10r8vBzu38GEbfrWAzsWQKJoO8dIXpggII7sJYfOEGGGXlxvBm8k9gxWhsCeogRxAOr9ASJ9ORI:1t410E:BJLsqJiObNlduPtWvBsMqrBBfuBuCosPhsItLpqfg4c",
+      "expire_date": "2024-11-07T16:48:02.908Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "u669cii6wolhuh1koy77dzjcoj10ei7m",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnxNxtKes5grbO7JIBsKU4qxN0hUgpo38y8l0q4rVPaGi9pJnVWVp1-t4zjg8sO6I7lVvVYy7rMWe-KPmjT10r8vBzu38GEbfrWAzsWQKJoO8dIXpggII7sJYfOEGGGXlxvBm8k9gxWhsCeogRxAOr9ASJ9ORI:1t4MBH:SViV1k0NF4AqMB5yLJFtJehJe6A0hwB96VWqZvam-do",
+      "expire_date": "2024-11-08T15:24:51.204Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "zknymlpbstwvf86tozqrzar9inaor0eh",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlnxNxtKes5grbO7JIBsKU4qxN0hUgpo38y8l0q4rVPaGi9pJnVWVp1-t4zjg8sO6I7lVvVYy7rMWe-KPmjT10r8vBzu38GEbfrWAzsWQKJoO8dIXpggII7sJYfOEGGGXlxvBm8k9gxWhsCeogRxAOr9ASJ9ORI:1t2tL6:Y2dqPJS0zDJ6XILdrp3L4BmOX9zbl4ztEs0DXDnuV0M",
+      "expire_date": "2024-11-04T14:24:56.608Z"
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 1,
+    "fields": {
+      "title": "Сообщение Первая",
+      "message": "Это самая первая рассылка",
+      "image": "",
+      "created_at": "2024-09-28T12:55:08.943Z",
+      "update_at": "2024-10-25T06:50:20.837Z",
+      "owner": 2
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 2,
+    "fields": {
+      "title": "Сообщение 1",
+      "message": "Это вторая рассылка",
+      "image": "",
+      "created_at": "2024-09-28T12:55:08.943Z",
+      "update_at": "2024-10-25T06:48:59.255Z",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 3,
+    "fields": {
+      "title": "Сообщение тест2",
+      "message": "Сообщение туст2",
+      "image": "",
+      "created_at": "2024-09-28T12:55:08.943Z",
+      "update_at": "2024-10-25T06:49:05.535Z",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 4,
+    "fields": {
+      "title": "Сообщение 444",
+      "message": "После создания новой рассылки, если текущие дата и время больше даты и времени начала и меньше даты и времени окончания, должны быть выбраны из справочника все клиенты, которые указаны в настройках рассылки и запущена отправка для всех этих клиентов.\r\nЕсли создается рассылка с временем старта в будущем, отправка должна стартовать автоматически по наступлению этого времени без дополнительных действий со стороны пользователя сервиса.\r\nПо ходу отправки рассылки должна собираться статистика (см. описание сущностей «Рассылка» и «Попытка» выше) по каждой рассылке для последующего формирования отчетов. Попытка создается одна для одной рассылки. Формировать попытки рассылки для всех клиентов отдельно не нужно.\r\nВнешний сервис, который принимает отправляемые сообщения, может долго обрабатывать запрос, отвечать некорректными данными, на какое-то время вообще не принимать запросы. Нужна корректная обработка подобных ошибок. Проблемы с внешним сервисом не должны влиять на стабильность работы разрабатываемого сервиса рассылок.",
+      "image": "",
+      "created_at": "2024-09-28T12:55:08.943Z",
+      "update_at": "2024-10-25T06:50:05.234Z",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 5,
+    "fields": {
+      "title": "Сообщение 3333",
+      "message": "111111111",
+      "image": "",
+      "created_at": "2024-10-22T17:31:51.249Z",
+      "update_at": "2024-10-25T06:49:57.898Z",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 6,
+    "fields": {
+      "title": "Сообщение Parlament",
+      "message": "Это первая рассылка ParlamentSV",
+      "image": "",
+      "created_at": "2024-10-22T18:44:54.398Z",
+      "update_at": "2024-10-25T06:49:24.903Z",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 7,
+    "fields": {
+      "title": "Сообщение test2",
+      "message": "test2",
+      "image": "",
+      "created_at": "2024-10-24T07:25:30.298Z",
+      "update_at": "2024-10-25T06:49:37.400Z",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 8,
+    "fields": {
+      "title": "Сообщение 11 parlamentsv",
+      "message": "Сообщение parlamentsv",
+      "image": "",
+      "created_at": "2024-10-24T08:47:52.801Z",
+      "update_at": "2024-10-25T06:49:31.619Z",
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 9,
+    "fields": {
+      "title": "Сообщение 222 parlamentsv",
+      "message": "Сообщение2 parlamentsv",
+      "image": "",
+      "created_at": "2024-10-24T10:14:02.322Z",
+      "update_at": "2024-10-25T06:49:48.514Z",
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 10,
+    "fields": {
+      "title": "Сообщение 111 тест2",
+      "message": "снова сообщение от тест2",
+      "image": "",
+      "created_at": "2024-10-24T13:05:51.748Z",
+      "update_at": "2024-10-25T06:49:42.978Z",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 1,
+    "fields": {
+      "email": "parlamentsv@mail.ru",
+      "name": "Сергей",
+      "comment": "тестовая рассылка",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 2,
+    "fields": {
+      "email": "vakhrin.sv@mail.ru",
+      "name": "Сергей vakhrin.sv Тест2",
+      "comment": "тестовая рассылка на Тест2",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 3,
+    "fields": {
+      "email": "dlaotpravkipisem@mail.ru",
+      "name": "Сергей dlaotpravkipisem@mail.ru",
+      "comment": "Тестовая рассылка на dlaotpravkipisem@mail.ru",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 4,
+    "fields": {
+      "email": "parlamentsv@mail.ru",
+      "name": "Сергей",
+      "comment": "для рассылок",
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 5,
+    "fields": {
+      "email": "parlamentsv@mail.ru",
+      "name": "Сергей Тест2",
+      "comment": "для рассылок Тест2",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 6,
+    "fields": {
+      "email": "parlamentsv2@mail.ru",
+      "name": "Сергей parlamentsv2",
+      "comment": "",
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 7,
+    "fields": {
+      "email": "parlamentsv3@mail.ru",
+      "name": "Сергей parlamentsv3",
+      "comment": "фэйк",
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 10,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-22T18:48:00Z",
+      "periodicity": "D",
+      "status": "W",
+      "created_at": "2024-10-22T18:46:36.970Z",
+      "update_at": "2024-10-24T07:26:16.346Z",
+      "message_id": 6,
+      "owner": 11,
+      "is_published": true,
+      "client_list": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 11,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-22T14:23:00Z",
+      "periodicity": "D",
+      "status": "W",
+      "created_at": "2024-10-23T11:24:02.650Z",
+      "update_at": "2024-10-24T07:26:06.379Z",
+      "message_id": 6,
+      "owner": 11,
+      "is_published": true,
+      "client_list": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 12,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-24T12:45:00Z",
+      "periodicity": "D",
+      "status": "W",
+      "created_at": "2024-10-24T07:24:15.713Z",
+      "update_at": "2024-10-24T08:44:34.963Z",
+      "message_id": 3,
+      "owner": 4,
+      "is_published": true,
+      "client_list": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 13,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-25T17:24:00Z",
+      "periodicity": null,
+      "status": "W",
+      "created_at": "2024-10-24T10:20:48.847Z",
+      "update_at": "2024-10-24T10:20:48.860Z",
+      "message_id": 8,
+      "owner": 11,
+      "is_published": true,
+      "client_list": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 14,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-24T17:25:00Z",
+      "periodicity": "W",
+      "status": "W",
+      "created_at": "2024-10-24T10:22:12.174Z",
+      "update_at": "2024-10-24T10:22:12.185Z",
+      "message_id": 3,
+      "owner": 4,
+      "is_published": true,
+      "client_list": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 15,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-25T20:07:00Z",
+      "periodicity": "W",
+      "status": "W",
+      "created_at": "2024-10-24T13:03:47.974Z",
+      "update_at": "2024-10-24T13:03:47.974Z",
+      "message_id": 3,
+      "owner": 4,
+      "is_published": true,
+      "client_list": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 16,
+    "fields": {
+      "date_of_first_dispatch": "2024-10-24T20:09:00Z",
+      "periodicity": "M",
+      "status": "W",
+      "created_at": "2024-10-24T13:06:11.418Z",
+      "update_at": "2024-10-25T10:41:44.100Z",
+      "message_id": 3,
+      "owner": 4,
+      "is_published": false,
+      "client_list": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 198,
+    "fields": {
+      "date_last_attempt": "2024-10-24T08:31:53.622Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 11,
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 199,
+    "fields": {
+      "date_last_attempt": "2024-10-24T08:31:55.035Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 10,
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 200,
+    "fields": {
+      "date_last_attempt": "2024-10-24T08:32:33.323Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 12,
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 201,
+    "fields": {
+      "date_last_attempt": "2024-10-24T18:10:15.730Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 14,
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 202,
+    "fields": {
+      "date_last_attempt": "2024-10-25T06:33:20.232Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 16,
+      "owner": 4
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 203,
+    "fields": {
+      "date_last_attempt": "2024-10-25T08:31:59.461Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 11,
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 204,
+    "fields": {
+      "date_last_attempt": "2024-10-25T08:32:00.641Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 10,
+      "owner": 11
+    }
+  },
+  {
+    "model": "mailing.attempt",
+    "pk": 205,
+    "fields": {
+      "date_last_attempt": "2024-10-25T08:32:40.561Z",
+      "status": true,
+      "server_response": "1",
+      "mailing_id": 12,
+      "owner": 4
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$Fm4fbfMUynaG4kDFiQijcT$XJvk2JbIcZkSE6QoNaXUgVl9YXVq8Qnt2NH0VNLDjiE=",
+      "last_login": "2024-10-27T06:46:00.991Z",
+      "is_superuser": true,
+      "first_name": "Admin",
+      "last_name": "SkyPro",
+      "is_staff": true,
+      "date_joined": "2024-10-21T12:30:22Z",
+      "email": "admin@sky.pro",
+      "avatar": "",
+      "phone": null,
+      "country": null,
+      "token": null,
+      "is_active": true,
+      "groups": [
+        3
+      ],
+      "user_permissions": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        5,
+        6,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        33,
+        34,
+        35,
+        36,
+        29,
+        30,
+        31,
+        32,
+        21,
+        50,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        17,
+        18,
+        19,
+        20,
+        45,
+        49,
+        46,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$u4t5bYacAVKDqwvATr0laA$IvyN0v8y8xqIKr3L5KU1KgYwVtDns7nndYPJmsKMyD8=",
+      "last_login": "2024-10-25T11:07:30.140Z",
+      "is_superuser": false,
+      "first_name": "Сергей",
+      "last_name": "Сергеев",
+      "is_staff": true,
+      "date_joined": "2024-10-21T13:38:09Z",
+      "email": "test1@sky.pro",
+      "avatar": "",
+      "phone": "8888888888",
+      "country": null,
+      "token": null,
+      "is_active": true,
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$MgpWtF4A4y42aC6zU6EQIi$O/atZhPPaVhYs++zglieOQ89wqd/iLJ4tL6iQOUqytI=",
+      "last_login": "2024-10-25T11:07:42.281Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2024-10-21T14:08:04Z",
+      "email": "test2@sky.pro",
+      "avatar": "",
+      "phone": null,
+      "country": null,
+      "token": null,
+      "is_active": true,
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 11,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$jg42NA42e7w0V6xbgcvL08$+u+e4lhDTk6l/2ncROKZmSeYbM0YEDz0maS7jry02JE=",
+      "last_login": "2024-10-25T14:41:03.940Z",
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": true,
+      "date_joined": "2024-10-23T12:52:29Z",
+      "email": "parlamentsv@mail.ru",
+      "avatar": "",
+      "phone": null,
+      "country": null,
+      "token": "20cc495af51f66ff594a060954b61936",
+      "is_active": true,
+      "groups": [
+        4
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+      "title": "Блог 1",
+      "post": "Тут должен быть текст новой статьи 1",
+      "image": "blog/Снимок_экрана_2024-10-13_151237.jpg",
+      "views_count": 2,
+      "created_at": "2024-10-24T15:52:26.016Z",
+      "updated_at": "2024-10-25T09:38:53.891Z",
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+      "title": "Блог 2",
+      "post": "Тут должен быть текст новой статьи 2",
+      "image": "blog/Снимок_экрана_2024-10-13_154518.jpg",
+      "views_count": 8,
+      "created_at": "2024-10-24T18:11:22.117Z",
+      "updated_at": "2024-10-25T11:07:20.475Z",
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+      "title": "Блог 3",
+      "post": "Тут должен быть текст новой статьи 3",
+      "image": "blog/photo_5278442149278505798_y.jpg",
+      "views_count": 0,
+      "created_at": "2024-10-24T18:11:29.725Z",
+      "updated_at": "2024-10-25T09:40:09.810Z",
+      "is_published": false
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "Блог 4",
+      "post": "Тут должен быть текст новой статьи 4",
+      "image": "blog/3.jpg",
+      "views_count": 5,
+      "created_at": "2024-10-24T18:11:37.604Z",
+      "updated_at": "2024-10-25T09:48:22.251Z",
+      "is_published": true
+    }
+  },
+  {
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "Блог 5",
+      "post": "Тут должен быть текст новой статьи 5",
+      "image": "blog/50119_054590.jpg",
+      "views_count": 3,
+      "created_at": "2024-10-25T06:48:34.006Z",
+      "updated_at": "2024-10-25T09:48:28.792Z",
+      "is_published": true
+    }
+  }
+]
